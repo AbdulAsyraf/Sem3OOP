@@ -20,6 +20,10 @@ public class Car extends Vehicle{
         this.no_mirror = no_mirror;
     }
 
+    public int getNumberOfTire(){
+        return 0;
+    }
+
     public void setNo_tire(int no_tire){
         this.no_tire = no_tire;
     }
